@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.column h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  user-select: none;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+  cursor: grab;
+  user-select: none;
+}
